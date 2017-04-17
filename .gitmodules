@@ -1,0 +1,3 @@
+[submodule "themes/ynuosa-theme-random"]
+	path = themes/ynuosa-theme-random
+	url = git@github.com:YNUOSA/ynuosa-theme-random.git
