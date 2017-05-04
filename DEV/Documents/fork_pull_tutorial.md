@@ -40,13 +40,13 @@ cd source/_posts
 
 ### 4. 创建并编辑Markdown格式文档
 
-**格式参见[该目录](https://github.com/posoo/ynuosa.github.io/tree/source/DEV/Templates)下的相关模版**
+**格式参见[该目录](https://github.com/YNUOSA/ynuosa.github.io/tree/source/DEV/Templates)下的相关模版**
 
 ![Screen Shot 2017-05-04 at 3.58.10 PM.png](https://ooo.0o0.ooo/2017/05/04/590adfa66d161.png)
 
 ### 5. git add&commit&push
 
-**commit message格式参见[此文档](https://github.com/posoo/ynuosa.github.io/blob/source/DEV/Documents/contribution_instructions.md)**
+**commit message格式参见[此文档](https://github.com/YNUOSA/ynuosa.github.io/blob/source/DEV/Documents/contribution_instructions.md)**
 
 ![Screen Shot 2017-05-04 at 4.00.05 PM.png](https://ooo.0o0.ooo/2017/05/04/590adfa730bc6.png)
 
@@ -71,5 +71,3 @@ cd source/_posts
 ### 7. 等！等等等！等！
 
 通过项目管理员审核并merge后，会自动通过TravisCI生成静态页面部署在`／master`分支。
-
-
