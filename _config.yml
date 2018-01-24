@@ -69,3 +69,133 @@ theme: ynuosa-theme-random
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+#############################################
+# THEME CONFIGURATION - ynuosa-theme-random #
+#############################################
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: index.html
+  Archives: archives
+  Tags: tags
+  Categories: categories
+  About: about
+  Mirrors: http://mirrors.ynuosa.org/index/
+  GitLab: https://gitlab.ynuosa.org/
+  Wiki: https://wiki.ynuosa.org/
+
+social:
+  GitHub: https://github.com/YNUOSA
+  # Coding.NET: https://coding.net/u/Stiekel
+  # Twitter: https://twitter.com/SidCN
+  # Weibo: http://weibo.com/sidcn
+  # DouBan: http://www.douban.com/people/Stiekel/
+
+# Tencent analytics
+tencent_analytics: 65056164
+# Google analytics
+google_analytics: UA-96985531-1
+# Baidu tongji
+baidu_analytics:
+# Duoshuo
+duoshuo_shortname:
+# Disqus
+disqus_shortname:
+# Uyan
+uyan_id:
+# jiaThis id
+# if you want to change the style of jiaThis, please go to chage the following file:
+# theme/random/layouts/includes/jiathis.swig
+jiaThis_uid:
+jiathisConfig:
+  data_track_clickback: true
+  summary: ""
+  showClose: true
+  shortUrl: false
+  hideMore: false
+
+
+
+# Miscelaneous
+favicon:
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/random.css
+- /css/vegas.min.css
+- /css/highlight-railscasts.css
+- /css/jquery.fancybox.css
+- /css/iconfont/iconfont.css
+- /css/jquery.fancybox-thumbs.css
+- /css/plyr.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-2.2.3.min.js
+- /js/vegas.min.js
+- /js/random.js
+- /js/highlight.pack.js
+- /js/jquery.mousewheel.pack.js
+- /js/jquery.fancybox.pack.js
+- /js/jquery.fancybox-thumbs.js
+- /js/plyr.js
+
+# ignore visitor statistics on special server, for example on you local computer or debugging server
+isIgnoreSpecialHostVisitor: true
+ignoreHostList:
+  - localhost
+  - 127.0.0.1
+
+# if you want to turn off the background images, pleaase set this value as true
+turnoffBackgroundImage:
+  # home page
+  index: false
+  # arcihve / categories / tags
+  post_list: false
+  # post and page
+  post: true
+
+# when you turn off backgrounds, you can set a background color.
+backgroundColor: FDD835
+
+backgroundImages:
+- https://ooo.0o0.ooo/2017/04/17/58f47c62ebadb.jpg
+- https://ooo.0o0.ooo/2017/04/17/58f47c6312c95.jpg
+- https://ooo.0o0.ooo/2017/04/17/58f47c63208f3.jpg
+- https://ooo.0o0.ooo/2017/04/17/58f47c6326a68.jpg
+
+vegasConfig:
+  # more about config http://vegas.jaysalvat.com/documentation/settings/
+  # animation: 'random'
+  # transition: 'swirlRight'
+  preload­Image: true
+  transition:
+    - slideLeft2
+    - slideRight2
+    # - zoomIn
+    # - swirLeft
+    # - swirRight
+    # - flash
+    - flash2
+  timer: true
+  delay: 5000
+  shuffle: true
+  count: 28
+
+unsplashConfig:
+  # more about config on https://unsplash.it/
+  # blur: true
+  gravity: 'north' # north, east, south, west, center
+  # greyscale: true
+
+avatar: https://ooo.0o0.ooo/2017/04/17/58f47d5c0f1cc.png
+
+# do not like fancybox, set this as false, this will turn it off
+fancybox: true
+
+# set the visibility of hide button in left bottom.
+hideButtonVisibility: false
+
