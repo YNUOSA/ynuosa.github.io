@@ -73,8 +73,6 @@ deploy:
 #############################################
 # THEME CONFIGURATION - ynuosa-theme-random #
 #############################################
-# html lang
-language: en
 
 # main menu navigation
 menu:
